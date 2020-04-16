@@ -1,0 +1,51 @@
+/* gets all the paragraph in 80% of the total screen and in center.*/
+#par
+{
+width:80%;
+margin-left:auto;
+margin-right:auto;
+}
+/* creats space at top. */
+h1
+{
+padding:30px;
+text-align:center;
+font-size:3em;
+}
+/* creats boarder.*/
+fieldset{
+padding:30px 40px;
+}
+/*hearder of boarder.*/
+legend{
+padding:20px;
+background:green;
+text-align:center;
+color:white;
+}
+/* settings for text field.*/
+#username, #password{
+width: 100%;
+padding: 12px;
+border: 1px solid #ccc;
+border-radius: 4px;
+box-sizing: border-box;
+margin-top: 6px;
+margin-bottom: 16px;
+resize: vertical;
+}
+/*cancel button is hovered.*/
+#cancel:hover {
+background-color: red;
+}
+/* button settings for login and cancel.*/
+#login, #cancel
+{
+width:20%;
+font-size:1.5em;
+background-color: #4CAF50;
+color: white;
+padding:10px;
+border-style:none;
+border-radius: 5px;
+}
